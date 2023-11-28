@@ -1,0 +1,6 @@
+[program:curator9-OlyaLob]
+command=python3 /home/curator9/curator9-OlyaLob/main.py
+autostart=true
+autorestart=true
+stderr_logfile=/home/curator9/curator9-OlyaLob/test.err.log
+stdout_logfile=/home/curator9/curator9-OlyaLob/test.out.log
